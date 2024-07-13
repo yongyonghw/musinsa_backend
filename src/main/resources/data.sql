@@ -1,0 +1,99 @@
+-- 상의
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (11200,1,1);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (10500,2,1);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (10000,3,1);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (10100,4,1);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (10700,5,1);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (11200,6,1);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (10500,7,1);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (10800,8,1);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (11400,9,1);
+-- 아우터
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (5500,1,2);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (5900,2,2);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (6200,3,2);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (5100,4,2);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (5000,5,2);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (7200,6,2);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (5800,7,2);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (6300,8,2);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (6700,9,2);
+-- 바지
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (4200,1,3);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (3800,2,3);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (3300,3,3);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (3000,4,3);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (3800,5,3);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (4000,6,3);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (3900,7,3);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (3100,8,3);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (3200,9,3);
+-- 스니커즈
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (9000,1,4);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (9100,2,4);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (9200,3,4);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (9500,4,4);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (9900,5,4);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (9300,6,4);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (9000,7,4);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (9700,8,4);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (9500,9,4);
+-- 가방
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2000,1,5);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2100,1,5);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2200,1,5);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2500,1,5);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2300,1,5);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2100,1,5);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2200,1,5);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2100,1,5);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2400,1,5);
+-- 모자
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (1700,1,6);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2000,1,6);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (1900,1,6);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (1500,1,6);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (1800,1,6);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (1600,1,6);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (1700,1,6);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (1600,1,6);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (1700,1,6);
+-- 양말
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (1800,1,7);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2000,1,7);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2200,1,7);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2400,1,7);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2100,1,7);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2300,1,7);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2100,1,7);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2000,1,7);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (1700,1,7);
+-- 액세서리
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2300,1,8);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2200,1,8);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2100,1,8);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2000,1,8);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2100,1,8);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (1900,1,8);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2000,1,8);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2000,1,8);
+INSERT INTO ITEM (price, brand_id, category_id) VALUES (2400,1,8);
+--brand
+INSERT INTO BRAND (name) VALUES ('A');
+INSERT INTO BRAND (name) VALUES ('B');
+INSERT INTO BRAND (name) VALUES ('C');
+INSERT INTO BRAND (name) VALUES ('D');
+INSERT INTO BRAND (name) VALUES ('E');
+INSERT INTO BRAND (name) VALUES ('F');
+INSERT INTO BRAND (name) VALUES ('G');
+INSERT INTO BRAND (name) VALUES ('H');
+INSERT INTO BRAND (name) VALUES ('I');
+--category
+INSERT INTO CATEGORY (name) VALUES ('상의');
+INSERT INTO CATEGORY (name) VALUES ('아우터');
+INSERT INTO CATEGORY (name) VALUES ('바지');
+INSERT INTO CATEGORY (name) VALUES ('스니커즈');
+INSERT INTO CATEGORY (name) VALUES ('가방');
+INSERT INTO CATEGORY (name) VALUES ('모자');
+INSERT INTO CATEGORY (name) VALUES ('양말');
+INSERT INTO CATEGORY (name) VALUES ('액세서리');
